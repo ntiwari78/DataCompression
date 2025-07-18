@@ -1,5 +1,8 @@
-# Trends
+# Trends and Resources
 - https://explodingtopics.com/blog/data-generated-per-day#data-creation-by-category
+- [http://mitchgordon.me/machine/learning/2020/01/13/do-we-really-need-model-compression.html](http://mitchgordon.me/machine/learning/2020/01/13/do-we-really-need-model-compression.html)
+- [https://www.kaggle.com/code/ruslankl/eeg-data-analysis](https://www.kaggle.com/code/ruslankl/eeg-data-analysis)
+
 
 # Data Compression Fundamentals: A Study Guide
 
