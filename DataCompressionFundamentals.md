@@ -1,4 +1,5 @@
-
+# Trends
+- https://explodingtopics.com/blog/data-generated-per-day#data-creation-by-category
 
 # Data Compression Fundamentals: A Study Guide
 
