@@ -182,9 +182,6 @@
 
 ---
 
-Here is your content formatted into structured, link-enhanced Markdown:
-
----
 
 # Key Questions on Data Compression
 
@@ -397,18 +394,48 @@ Here is a **Markdown-formatted summary** of the key points from the lecture tran
 
 ---
 
-## 🧪 Course Breakdown
+## 🧪 Concept Breakdown
 
-### Course Flow
+### Concept Flow
 
 * **First Half**: Lossless compression
 
   * Topics: Entropy, Huffman coding, arithmetic coding, LZ schemes
+
+#### 📦 Lossless Compressors
+
+* [Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
+* [Arithmetic Coding (AC)](https://en.wikipedia.org/wiki/Arithmetic_coding)
+* [Asymmetric Numeral Systems (ANS)](https://en.wikipedia.org/wiki/Asymmetric_numeral_systems)
+* [Lempel-Ziv (LZ77/LZ78) Schemes](https://en.wikipedia.org/wiki/LZ77_and_LZ78)
+
+  * [gzip](https://en.wikipedia.org/wiki/Gzip)
+* Handling Correlated Sources
+* [Adaptive Arithmetic Coding](https://en.wikipedia.org/wiki/Arithmetic_coding#Adaptive_models)
+* [Universal Compression](https://en.wikipedia.org/wiki/Universal_code_%28data_compression%29)
+
+
 * **Second Half**: Lossy compression
 
   * Topics: Rate-distortion theory, transform coding, JPEG, learned compression
 
-### Learning Approach
+#### 🎞️ Lossy Compression Topics
+
+* [Rate-Distortion Theory](https://en.wikipedia.org/wiki/Rate%E2%80%93distortion_theory), [Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)
+* [Quantization](https://en.wikipedia.org/wiki/Quantization_%28signal_processing%29)
+* **Transform Coding**:
+
+  * [KLT (Karhunen–Loève Transform)](https://en.wikipedia.org/wiki/Karhunen%E2%80%93Lo%C3%A8ve_transform)
+  * [FFT (Fast Fourier Transform)](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
+  * [DCT (Discrete Cosine Transform)](https://en.wikipedia.org/wiki/Discrete_cosine_transform)
+* **Deep-dive into Images**:
+
+  * Traditional: [JPEG](https://en.wikipedia.org/wiki/JPEG), [BPG](https://en.wikipedia.org/wiki/BPG_%28image_format%29)
+* [Machine Learning + Compression](https://en.wikipedia.org/wiki/Learned_image_compression)
+* [Video Compression](https://en.wikipedia.org/wiki/Video_compression)
+* [Role of Human Perception](https://en.wikipedia.org/wiki/Psychoacoustics)
+
+### Concept Approach
 
 * Blend of **theory**, **practical algorithms**, and **tools**
 * Exposure to: hardware optimization, low-level coding, transform methods (e.g., [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform), [DCT](https://en.wikipedia.org/wiki/Discrete_cosine_transform))
