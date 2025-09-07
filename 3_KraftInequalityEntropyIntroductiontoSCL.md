@@ -22,9 +22,9 @@ Kraft’s inequality provides a **necessary and sufficient condition** for the e
 
 * If you have codeword lengths $L_1, L_2, ..., L_k$, then:
 
-  $$
+$$
   \sum_{i=1}^{k} 2^{-L_i} \leq 1
-  $$
+$$
 
 * **Converse**: If this inequality holds, then there exists a prefix-free code with those lengths.
 
@@ -77,9 +77,9 @@ $$
 * Constructs codewords with length $L_i = \lceil \log_2 \frac{1}{p_i} \rceil$
 * Guarantees:
 
-  $$
+$$
   H(X) \leq L(X) < H(X) + 1
-  $$
+$$
 
 ### Huffman Code
 
@@ -116,9 +116,9 @@ To get arbitrarily close to entropy:
 
 * Result:
 
-  $$
+$$
   H(X) \leq \frac{L(X^n)}{n} < H(X) + \frac{1}{n}
-  $$
+$$
 
 * As $n \to \infty$, expected length per symbol approaches $H(X)$
 
